@@ -33,4 +33,4 @@ E1 = dis.dispatch_max_sc(pv, demand, param_tech, return_series=False)
 print(E1.keys())
 
 an.print_analysis(pv, demand, param_tech, E1)
-pl.plot_dispatch(pv, demand, E1, week=18)
+# pl.plot_dispatch(pv, demand, E1, week=18)
